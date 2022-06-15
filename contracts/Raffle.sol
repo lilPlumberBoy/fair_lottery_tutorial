@@ -175,7 +175,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         return i_entranceFee;
     }
 
-    function getPLayer(uint256 index) public view returns (address) {
+    function getPlayer(uint256 index) public view returns (address) {
         return s_players[index];
     }
 
@@ -202,5 +202,9 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
 
     function getRequestConfirmations() public pure returns (uint256) {
         return REQUEST_CONFIRMATIONS;
+    }
+
+    function getInterval() public view returns (uint256) {
+        return i_interval;
     }
 }

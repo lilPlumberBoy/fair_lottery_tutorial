@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/michaeldaly/github_projects/fair_lottery_tutorial/contracts/Raffle.sol": {
-      "lastModificationDate": 1654542545066,
-      "contentHash": "fa28b503e541db8e101a252c15575d2d",
+      "lastModificationDate": 1654636867707,
+      "contentHash": "be99bfad557e34aec530af13166cbcb4",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -261,10 +261,10 @@
         "LinkTokenInterface"
       ]
     },
-    "/Users/michaeldaly/github_projects/fair_lottery_tutorial/contracts/VRFCoordinatorV2Mock.sol": {
-      "lastModificationDate": 1654624324477,
+    "/Users/michaeldaly/github_projects/fair_lottery_tutorial/contracts/test/VRFCoordinatorV2Mock.sol": {
+      "lastModificationDate": 1654636864677,
       "contentHash": "c9dfc6afbefa255b9e1a837455618271",
-      "sourceName": "contracts/VRFCoordinatorV2Mock.sol",
+      "sourceName": "contracts/test/VRFCoordinatorV2Mock.sol",
       "solcConfig": {
         "version": "0.8.7",
         "settings": {
