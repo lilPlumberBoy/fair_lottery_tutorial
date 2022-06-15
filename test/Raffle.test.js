@@ -67,7 +67,6 @@ const { developmentChains, networkConfig } = require("../helper-hardhat-config")
               })
               it("returns false if raffle isn't open", async function () {
                   await raffle.enterRaffle({ value: raffleEntraceFee })
-                  await network.provider.send()
                   await network.provider.send("evm_increaseTime", [interval.toNumber() + 1])
                   await network.provider.send("evm_mine", [])
                   //   await raffle.performUpkeep("0x") could also be used
